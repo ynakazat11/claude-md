@@ -38,3 +38,4 @@
 - Don't refactor code unrelated to the current task
 - Don't generate boilerplate comments or docstrings that just restate the function name
 - Don't use `os.system()` — use `subprocess.run()` with proper error handling
+- Never write secrets, credentials, PII, or sensitive data to any file, output, or commit — not even to private repos. If in doubt, ask
